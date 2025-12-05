@@ -22,10 +22,10 @@
 
   <br><br>
 
-  <!-- SCREENSHOT -->
-  <a href="https://github.com/DjangoCustard225/Media-Renamer">
-    <img src="assets/screenshot.png" alt="Media Manager Screenshot" width="850" style="border-radius: 12px; box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);">
-  </a>
+ <!-- SCREENSHOT -->
+<a href="https://github.com/DjangoCustard225/Media-Renamer">
+  <img src="https://raw.githubusercontent.com/DjangoCustard225/Media-Renamer/main/assets/screenshot.png" alt="Media Manager Screenshot" width="850" style="border-radius: 12px; box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);">
+</a>
 
   <br><br>
   
