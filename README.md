@@ -1,57 +1,39 @@
-<div align="center">
+# Media Manager
 
-  # 🎬 Media Manager
-  
-  **The elegant way to organize your media library.**
- 
-  
-  <p align="center">
-    <b>Media Manager</b> transforms messy filenames into a clean, curated library compatible with Plex, Jellyfin, and Kodi.
-    <br>
-    Built with a stunning modern UI and powered by The Movie Database.
-  </p>
+A clean, automated tool to rename Movies and TV Shows for Plex, Jellyfin, and Kodi using The Movie Database (TMDB).
 
-</div>
+## Features
+- Automatically distinguishes between Movies and TV Shows.
+- Renames files to industry standards:
+  - Movies: "Movie Title (Year).ext"
+  - TV: "Show Name - S01E01 - Episode Title.ext"
+- Modern dark mode interface.
+- Threaded scanning for high performance.
 
----
+## Installation
 
-## ✨ Features
+### Option 1: Download Executable
+Download the latest .exe file from the GitHub Releases page. No installation required.
 
-*   **🔍 Smart Detection:** Automatically identifies Movies vs. TV Shows using `guessit` advanced logic.
-*   **🎨 Modern Dark UI:** A sleek, responsive interface built with `CustomTkinter` that looks at home on Windows 11.
-*   **📂 Flexible Input:** Drag and drop an entire folder or select specific files to process.
-*   **🛡️ Safety First:** Review a "Before & After" queue of all changes. Nothing is renamed until you click the red button.
-*   **⚡ High Performance:** Threaded scanning ensures the app remains buttery smooth even when processing hundreds of files.
+### Option 2: Run from Source
+1. Install Python 3.10 or higher.
+2. Install dependencies:
+   pip install requests guessit customtkinter
+3. Run the application:
+   python media_manager.py
 
-## 🚀 Naming Standard
+## Configuration
+The app requires a TMDB API Key to fetch metadata.
+1. Create an account at The Movie Database (https://www.themoviedb.org/).
+2. Navigate to Settings > API.
+3. Copy your key and paste it into the app's input field.
+(A default key is provided for testing purposes).
 
-Your files are renamed to the industry standard for media servers:
+## Building the EXE
+If you want to compile the binary yourself:
 
-| Type | Original File | Renamed Result |
-| :--- | :--- | :--- |
-| **Movie** | `bullet.train.2022.1080p.webrip.mp4` | `Bullet Train (2022).mp4` |
-| **TV Episode** | `the.office.us.s02e03.avi` | `The Office - S02E03 - The Fire.avi` |
+1. Install PyInstaller:
+   pip install pyinstaller
 
-## 📥 Installation
-
-### 1. Download Executable (Recommended)
-Simply download the latest `.exe` from the **[Releases Page](https://github.com/DjangoCustard225/Media-Renamer/releases)**. No installation required.
-
-### 2. Run from Source
-If you prefer to run the Python script directly:
-
-```bash
-# Clone the repo
-git clone https://github.com/DjangoCustard225/Media-Renamer.git
-cd Media-Renamer
-
-# Install requirements
-pip install requests guessit customtkinter
-
-# Run the app
-python media_manager.py
-
-
-
-python build_exe.py
-
+2. Run the build script:
+   python build_exe.py
