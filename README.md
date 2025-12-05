@@ -3,31 +3,7 @@
   # 🎬 Media Manager
   
   **The elegant way to organize your media library.**
-  
-  <br>
-
-  <!-- BADGES -->
-  <a href="https://github.com/DjangoCustard225/Media-Renamer/actions">
-    <img src="https://img.shields.io/badge/Build-Passing-success?style=for-the-badge&logo=github" alt="Build Status"/>
-  </a>
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Made%20With-Python%203.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  </a>
-  <a href="https://github.com/DjangoCustard225/Media-Renamer/releases">
-    <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
-  </a>
-  <a href="https://www.themoviedb.org/">
-    <img src="https://img.shields.io/badge/Data%20Source-TMDB-01d277?style=for-the-badge&logo=themoviedatabase&logoColor=white" alt="TMDB"/>
-  </a>
-
-  <br><br>
-
- <!-- SCREENSHOT -->
-<a href="https://github.com/DjangoCustard225/Media-Renamer">
-  <img src="https://raw.githubusercontent.com/DjangoCustard225/Media-Renamer/main/assets/screenshot.png" alt="Media Manager Screenshot" width="850" style="border-radius: 12px; box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);">
-</a>
-
-  <br><br>
+ 
   
   <p align="center">
     <b>Media Manager</b> transforms messy filenames into a clean, curated library compatible with Plex, Jellyfin, and Kodi.
@@ -74,6 +50,8 @@ pip install requests guessit customtkinter
 
 # Run the app
 python media_manager.py
+
+
 
 python build_exe.py
 
